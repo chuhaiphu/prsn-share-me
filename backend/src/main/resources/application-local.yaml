@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SHARE_ME
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ShareMe
+    username: postgres
+    password: sa
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        '[format_sql]': true
