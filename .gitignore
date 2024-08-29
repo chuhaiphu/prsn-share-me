@@ -1,1 +1,3 @@
-frontend/.env
+frontend/.envbackend/docker-compose.yaml
+backend/Dockerfile
+backend/docker-compose.yaml
