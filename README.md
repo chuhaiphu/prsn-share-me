@@ -34,6 +34,14 @@ Share Image is a platform for user, login by Google account, to posting, downloa
       <b>Spring Boot:</b> Main backend framework for RESTful APIs and Database ORM.
     </td>
   </tr>
+    <tr>
+    <td align="center" width="160">
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" width="140" height="40"/>
+    </td>
+    <td>
+      <b>PostgreSQL:</b> Robust relational database for efficient data storage and management.
+    </td>
+  </tr>
   <tr>
     <td align="center" width="160">
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" width="140" height="40"/>
