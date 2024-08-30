@@ -74,12 +74,20 @@ Share Image is a platform for user, login by Google account, to posting, downloa
       <b>Docker:</b> Containerization platform ensuring consistency across development.
     </td>
   </tr>
+    <tr>
+    <td align="center" width="160">
+      <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white" alt="Netlify" width="140" height="40"/>
+    </td>
+    <td>
+      <b>Netlify:</b> Platform for continuous deployment and hosting of the frontend application.
+    </td>
+  </tr>
   <tr>
     <td align="center" width="160">
       <img src="https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white" alt="Render" width="140" height="40"/>
     </td>
     <td>
-      <b>Render:</b> Cloud platform for deploying and hosting the application.
+      <b>Render:</b> Cloud platform for deploying and hosting backend the application.
     </td>
   </tr>
 </table>
