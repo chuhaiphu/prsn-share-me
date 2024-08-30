@@ -2,13 +2,11 @@
   <h1 align="center">SHARE IMAGE</h1>
   <h3>The image sharing platform</h3>
 
-<img src="frontend/public/favicon.png" alt="Papermark" style="width:160px;height:160px"></a>
+<img src="frontend/public/favicon.png" alt="Papermark" style="width:80px;height:80px"></a>
 
 </div>
 
-<br/>
-
-Share Image is a platform for user, login by Google account, to posting, downloading image. Other users can view and comment on that image.
+Share Image is a platform for user to post, download image, view and comment on other user's image. User use Google account to login.
 ## Main Features
 
 - **Shareable Image:** Upload your image to platform, view images and search images by categories.
