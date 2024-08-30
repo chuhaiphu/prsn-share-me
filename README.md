@@ -146,6 +146,7 @@ REACT_APP_AWS_BUCKET_NAME=
 
 ### 4. Build and run with Docker
 Run Docker Desktop
+<br>
 Create Dockerfile in backend folder to build images
 ```shell
 docker build -t your-image-name:latest .
