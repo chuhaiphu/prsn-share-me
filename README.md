@@ -119,21 +119,16 @@ Here's what you need to be able to run Share Image:
 
 ```shell
 git clone https://github.com/chuhaiphu/prsn-share-me
-cd share-image
 ```
 
 ### 2. Install dependencies
-
+In frontend directory
 ```shell
-cd backend
-mvn install
-
-cd ../frontend
 npm install
 ```
 
 ### 3. Configure environment variables
-Create a .env file in frontend folder
+Create a .env file in frontend directory
 ```shell
 REACT_APP_API_BASE_URL=
 REACT_APP_GOOGLE_API_TOKEN=
@@ -147,11 +142,11 @@ REACT_APP_AWS_BUCKET_NAME=
 ### 4. Build and run with Docker
 Run Docker Desktop
 <br>
-Create Dockerfile in backend folder to build images
+In backend directory, create dockerfile in backend folder to build images
 ```shell
 docker build -t your-image-name:latest .
 ```
-Create docker-compose.yaml in backend folder to run project base on application.properties file
+Create docker-compose.yaml in backend directory to run project base on application.properties file
 ```shell
 services:
   postgres:
@@ -178,6 +173,8 @@ docker-compose up
 ```
 
 ### 5. Run the app
+In Docker Desktop, make sure Database container and Backend App Container is running
+<br>
 Go back to frontend folder
 ```shell
 npm start
