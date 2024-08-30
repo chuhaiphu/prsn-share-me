@@ -13,7 +13,7 @@ Share Image is a platform for user, login by Google account, to posting, downloa
 
 - **Shareable Image:** Upload your image to platform, view images and search images by categories.
 - **Image Interaction:** Post comments on other users images, download images and save images to view later.
-- **User Interaction:** View other users homepage, what is their uploaded images and save images.
+- **User Interaction:** View other users homepage, their uploaded images and save images.
 
 
 ## Demo
