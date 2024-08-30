@@ -181,3 +181,8 @@ npm start
 ```
 Visit [http://localhost:3000]
 
+## Inspired by
+
+The frontend part of the project was inspired by and references the following works:
+- [Share-Me](https://github.com/adrianhajdin/project_shareme_social_media) by [Adrian Hajdin - JS Mastery](https://github.com/adrianhajdin)
+
