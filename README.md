@@ -108,11 +108,12 @@ Share Image is a platform for user, login by Google account, to posting, downloa
 
 Here's what you need to be able to run Share Image:
 
-- Java Development Kit (JDK) 11 or later
+- Java Development Kit (JDK) 17 or later
 - Maven
-- Node.js (version >= 14)
+- Node.js (version >= 18)
 - PostgreSQL Database
 - AWS account for S3 bucket access
+- Docker Desktop
 
 ### 1. Clone the repository
 
@@ -144,7 +145,7 @@ REACT_APP_AWS_BUCKET_NAME=
 ```
 
 ### 4. Build and run with Docker
-
+Run Docker Desktop
 Create Dockerfile in backend folder to build images
 ```shell
 docker build -t your-image-name:latest .
