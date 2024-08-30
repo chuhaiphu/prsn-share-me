@@ -13,12 +13,27 @@ public class UserService {
   private final UserRepository userRepository;
 
   public void saveUserInfo(User user) {
-    userRepository.save(user);
+    User existingUser = userRepository.findById(user.getUserId()).orElse(null);
+    if (existingUser != null) {
+      // Update only the necessary fields
+      existingUser.setUserName(user.getUserName());
+      existingUser.setImageUrl(user.getImageUrl());
+      userRepository.save(existingUser);
+    } else {
+      // If it's a new user, save as is
+      userRepository.save(user);
+    }
   }
 
   public UserDTO getUserInfo(String userId) {
     User user = userRepository.findById(userId).get();
     
-    return new UserDTO(user.getUserId(), user.getUserName(), user.getImageUrl(), null, null, null);
+    return new UserDTO(user.getUserId(), user.getUserName(), user.getImageUrl(), user.getBackgroundImageUrl(), null, null, null);
+  }
+  
+  public User updateBackgroundImage(User user) {
+    User existingUser = userRepository.findById(user.getUserId()).orElseThrow(() -> new RuntimeException("User not found"));
+    existingUser.setBackgroundImageUrl(user.getBackgroundImageUrl());
+    return userRepository.save(existingUser);
   }
 }

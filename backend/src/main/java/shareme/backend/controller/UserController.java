@@ -30,6 +30,11 @@ public class UserController {
   @GetMapping("/{userId}")
   public ResponseEntity<UserDTO> getUserDTO(@PathVariable String userId) {
       return ResponseEntity.ok(userService.getUserInfo(userId));
-  
+  }
+
+  @PostMapping("/update-background")
+  public ResponseEntity<UserDTO> updateBackgroundImage(@RequestBody User user) {
+    User updatedUser = userService.updateBackgroundImage(user);
+    return ResponseEntity.ok(new UserDTO(updatedUser.getUserId(), updatedUser.getUserName(), updatedUser.getImageUrl(), updatedUser.getBackgroundImageUrl(), null, null, null));
   }
 }

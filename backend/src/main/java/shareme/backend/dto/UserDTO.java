@@ -15,6 +15,7 @@ public class UserDTO {
   private String userId;
   private String userName;
   private String imageUrl;
+  private String backgroundImageUrl;
   private List<PinDTO> pinDTOs;
   private List<CommentDTO> commentDTOs;
   private List<SaveDTO> saveDTOs;

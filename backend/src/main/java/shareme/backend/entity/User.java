@@ -32,6 +32,9 @@ public class User {
   @Column(name = "IMAGE_URL")
   private String imageUrl;
 
+  @Column(name = "BACKGROUND_IMAGE_URL")
+  private String backgroundImageUrl;
+
   @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
   private List<Pin> pins = new ArrayList<>();
 
