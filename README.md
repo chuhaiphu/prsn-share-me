@@ -17,8 +17,8 @@ Share Image is a platform for user to post, download image, view and comment on 
 ## Demo
 
 <img src="public/Demo 1.gif" width="840" alt="Demo GIF">
-<img src="public/Demo 2.gif" width="840" alt="Demo GIF">
 <img src="public/Demo 3.gif" width="840" alt="Demo GIF">
+<img src="public/Demo 2.gif" width="840" alt="Demo GIF">
 <img src="public/Demo 4.gif" width="840" alt="Demo GIF">
 
 ## Tech Stack
